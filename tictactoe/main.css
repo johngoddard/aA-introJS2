@@ -1,0 +1,24 @@
+@import 'https://fonts.googleapis.com/css?family=Lakki+Reddy';
+body {
+  background-color: #a03d94;
+  color: #fff;
+  font-family: 'Lakki Reddy';
+}
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.game_board {
+  text-align: center;
+}
+.game_board h1 {
+  cursor: pointer;
+}
+.game_board h1:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+.color {
+  background-color: rgba(105, 79, 200, 0.5);
+}

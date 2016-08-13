@@ -32,7 +32,8 @@ class Board {
           str = str.concat(' _ ');
         }
       });
-      console.log(`${idx}   ${str}`);
+      let currentRow = document.getElementById(`row${idx + 1}`);
+      currentRow.innerHTML = str;
     });
   }
 
@@ -99,4 +100,6 @@ class Board {
     return tie;
   }
 }
-module.exports = Board;
+// module.exports = Board;
+let board = new Board;
+board.print();
